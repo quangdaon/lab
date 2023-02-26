@@ -1,1 +1,4 @@
 - name: Conway's Game of Life
+  repo: https://github.com/quangdaon/game-of-life
+  path: game-of-life
+  netlifyId: cozy-pixie-d75bc2

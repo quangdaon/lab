@@ -1,2 +1,32 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	export let data;
+
+	const apps = data.apps;
+</script>
+
+<div class="container">
+	<div class="intro">
+		<h1>Welcome to My Lab</h1>
+	</div>
+
+	<div class="apps">
+		{#each apps as app}
+			{app.name}
+		{/each}
+	</div>
+</div>
+
+<style>
+	:global(body) {
+		margin: 0;
+	}
+
+	.container {
+		max-width: 1080px;
+		margin: auto;
+	}
+
+	.intro {
+		text-align: center;
+	}
+</style>

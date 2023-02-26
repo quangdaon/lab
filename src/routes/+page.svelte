@@ -4,22 +4,27 @@
 	const apps = data.apps;
 </script>
 
-<div class="container">
-	<div class="intro">
+<main class="container">
+	<header class="intro">
 		<h1>Welcome to My Lab</h1>
-	</div>
+	</header>
 
-	<div class="apps">
+	<section class="apps">
 		{#each apps as app}
-			<div class="app">
-				<h2> 
+			<article class="app">
+				<h2>
 					<a rel="external" href="/{app.path}">{app.name}</a>
 				</h2>
-        <p>{app.description}</p>
-			</div>
+				<p>{app.description}</p>
+			</article>
 		{/each}
-	</div>
-</div>
+	</section>
+
+	<footer class="footer">
+		&copy;{new Date().getFullYear()} Quangdao Nguyen |
+		<a href="https://github.com/quangdaon/lab" target="_blank" rel="noreferrer">Repo</a>
+	</footer>
+</main>
 
 <style>
 	:global(body) {
@@ -32,6 +37,11 @@
 	}
 
 	.intro {
+		text-align: center;
+	}
+
+	.footer {
+		margin-top: 2em;
 		text-align: center;
 	}
 </style>

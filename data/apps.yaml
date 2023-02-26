@@ -1,4 +1,6 @@
 - name: Conway's Game of Life
+  description: |
+    An implementation of the cellular automaton created by John Conway.
   repo: https://github.com/quangdaon/game-of-life
   path: game-of-life
   netlifyId: cozy-pixie-d75bc2

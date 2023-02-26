@@ -11,7 +11,12 @@
 
 	<div class="apps">
 		{#each apps as app}
-			{app.name}
+			<div class="app">
+				<h2> 
+					<a rel="external" href="/{app.path}">{app.name}</a>
+				</h2>
+        <p>{app.description}</p>
+			</div>
 		{/each}
 	</div>
 </div>

@@ -40,6 +40,7 @@
 
 	.container {
 		max-width: 1080px;
+		padding: 0 1em;
 		margin: auto;
 	}
 

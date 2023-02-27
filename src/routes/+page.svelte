@@ -20,7 +20,7 @@
 					<a rel="external" href="/{app.path}">{app.name}</a>
 				</h2>
 				<p>{@html app.description}</p>
-				<p><a href={app.repo} target="_blank" rel="noreferrer">Check out the Code</a></p>
+				<p><a href={app.repo} target="_blank" rel="noreferrer">View Source Code</a></p>
 			</article>
 		{/each}
 	</section>

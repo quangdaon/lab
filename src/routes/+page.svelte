@@ -17,10 +17,16 @@
 		{#each apps as app}
 			<article class="app">
 				<h2>
-					<a rel="external" href="/{app.path}">{app.name}</a>
+					{#if app.externalLink}
+						<a href={app.externalLink} target="_blank" rel="noreferrer">{app.name}</a>
+					{:else}
+						<a href="/{app.path}" rel="external">{app.name}</a>
+					{/if}
 				</h2>
 				<p>{@html app.description}</p>
-				<p><a href={app.repo} target="_blank" rel="noreferrer">View Source Code</a></p>
+				{#if app.repo}
+					<p><a href={app.repo} target="_blank" rel="noreferrer">View Source Code</a></p>
+				{/if}
 			</article>
 		{/each}
 	</section>

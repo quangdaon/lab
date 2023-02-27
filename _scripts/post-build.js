@@ -8,7 +8,8 @@ const { readFile, writeFile } = promises;
 
 const txt = await readFile(appsPath, 'utf-8');
 const apps = YAML.parse(txt);
-const redirects = apps.map((e) => ({
+const netlifyApps = apps.filter(e => !!e.netlifyId);
+const redirects = netlifyApps.map((e) => ({
 	source: `/${e.path}/*`,
 	target: `https://${e.netlifyId}.netlify.app/:splat`
 }));

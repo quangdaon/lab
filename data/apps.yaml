@@ -11,3 +11,8 @@
   repo: https://github.com/quangdaon/light-switch-problem
   path: light-switch-problem
   netlifyId: resilient-cheesecake-d0fc32
+
+- name: PI Toothpick Approximation (Pi Day 2022)
+  description: |
+    <a href="https://en.wikipedia.org/wiki/Buffon%27s_needle_problem" target="_blank" rel="noreferrer">Buffon's Needle</a> is a mathematical question with a surprising solution. As it turns out, when you calculate the probability that a line segment of length N intersects a series of parallel lines spaced N units apart, pi makes a unexpected appearance. For Pi Day 2022, I used this fact in reverse to approximate the value of pi by simulating toothpicks being dropped onto evenly spaced lines.
+  externalLink: https://editor.p5js.org/quangdaon/sketches/o8r9pKEgj

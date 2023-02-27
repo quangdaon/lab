@@ -4,3 +4,10 @@
   repo: https://github.com/quangdaon/game-of-life
   path: game-of-life
   netlifyId: cozy-pixie-d75bc2
+
+- name: The Light Switch Problem
+  description: |
+    AKA the Locker Problem, an interesting result happens when you ask N people to flip every Nth light switch. Check out <a href="https://www.youtube.com/watch?v=-UBDRX6bk-A" target="_blank" rel="noreferrer">Numberphile's video</a> for more information.
+  repo: https://github.com/quangdaon/light-switch-problem
+  path: light-switch-problem
+  netlifyId: resilient-cheesecake-d0fc32

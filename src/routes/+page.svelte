@@ -7,6 +7,10 @@
 <main class="container">
 	<header class="intro">
 		<h1>Welcome to My Lab</h1>
+		<p>
+			This is where I will be publish one-off experimental projects, usually related to math or
+			science.
+		</p>
 	</header>
 
 	<section class="apps">
@@ -15,7 +19,8 @@
 				<h2>
 					<a rel="external" href="/{app.path}">{app.name}</a>
 				</h2>
-				<p>{app.description}</p>
+				<p>{@html app.description}</p>
+				<p><a href={app.repo} target="_blank" rel="noreferrer">Check out the Code</a></p>
 			</article>
 		{/each}
 	</section>
@@ -27,13 +32,19 @@
 </main>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 	:global(body) {
 		margin: 0;
+		font-family: 'Golos Text', sans-serif;
 	}
 
 	.container {
 		max-width: 1080px;
 		margin: auto;
+	}
+
+	.app {
+		margin: 2em 0;
 	}
 
 	.intro {

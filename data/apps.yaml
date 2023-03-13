@@ -16,3 +16,10 @@
   description: |
     <a href="https://en.wikipedia.org/wiki/Buffon%27s_needle_problem" target="_blank" rel="noreferrer">Buffon's Needle</a> is a mathematical question with a surprising solution. As it turns out, when you calculate the probability that a line segment of length N intersects a series of parallel lines spaced N units apart, pi makes a unexpected appearance. For Pi Day 2022, I used this fact in reverse to approximate the value of pi by simulating toothpicks being dropped onto evenly spaced lines.
   externalLink: https://editor.p5js.org/quangdaon/sketches/o8r9pKEgj
+
+- name: PI-Section (Pi Day 2023)
+  description: |
+    Before modern computing, pi had to be calculated by hand. Archimedes did this by inscribing a polygon inside a unit circle and circumscribing one outside to find the lower and upper limits of what pi possibly can be. This is a visual demonstration of this method. Check out <a href="https://youtu.be/gMlf1ELvRzc?t=85" target="_blank" rel="noreferrer">Veritasium explanation</a> for more details.
+  repo: https://github.com/quangdaon/pi-section
+  path: pi-section
+  netlifyId: merry-biscuit-200a60

@@ -8,3 +8,5 @@ export function GET() {
 		headers: { 'Content-Type': 'application/json' }
 	});
 }
+
+export const prerender = true;

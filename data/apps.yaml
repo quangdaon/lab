@@ -1,14 +1,18 @@
 - name: Conway's Game of Life
   description: |
     An implementation of the cellular automaton created by John Conway.
-  repo: https://github.com/quangdaon/game-of-life
+  links:
+    - label: View Source Code
+      url: https://github.com/quangdaon/game-of-life
   path: game-of-life
   netlifyId: cozy-pixie-d75bc2
 
 - name: The Light Switch Problem
   description: |
     AKA the Locker Problem, an interesting result happens when you ask N people to flip every Nth light switch. Check out <a href="https://www.youtube.com/watch?v=-UBDRX6bk-A" target="_blank" rel="noreferrer">Numberphile's video</a> for more information.
-  repo: https://github.com/quangdaon/light-switch-problem
+  links:
+    - label: View Source Code
+      url: https://github.com/quangdaon/light-switch-problem
   path: light-switch-problem
   netlifyId: resilient-cheesecake-d0fc32
 
@@ -20,13 +24,19 @@
 - name: PI-Section (Pi Day 2023)
   description: |
     Before modern computing, pi had to be calculated by hand. Archimedes did this by inscribing a polygon inside a unit circle and circumscribing one outside to find the lower and upper limits of what pi possibly can be. This is a visual demonstration of this method. Check out <a href="https://youtu.be/gMlf1ELvRzc?t=85" target="_blank" rel="noreferrer">Veritasium explanation</a> for more details.
-  repo: https://github.com/quangdaon/pi-section
+  links:
+    - label: View Source Code
+      url: https://github.com/quangdaon/pi-section
   path: pi-section
   netlifyId: merry-biscuit-200a60
 
 - name: Pi Squared (Pi Day 2024)
   description: |
     In this virtual game of darts, we estimate pi by picking random points in a square and counting how many also fall inside of a circle.
-  repo: https://github.com/quangdaon/pi-squared
+  links:
+    - label: View Source Code
+      url: https://github.com/quangdaon/pi-squared
+    - label: Read Blog Post
+      url: https://www.quangdao.com/blog/pi-day-2024
   path: pi-squared
   netlifyId: heartfelt-pegasus-2ae936

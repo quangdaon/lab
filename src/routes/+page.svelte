@@ -24,8 +24,12 @@
 					{/if}
 				</h2>
 				<p>{@html app.description}</p>
-				{#if app.repo}
-					<p><a href={app.repo} target="_blank" rel="noreferrer">View Source Code</a></p>
+				{#if app.links}
+					<p class="links">
+						{#each app.links as link}
+							<a href={link.url} target="_blank" rel="noreferrer">{link.label}</a>
+						{/each}
+					</p>
 				{/if}
 			</article>
 		{/each}
@@ -56,6 +60,11 @@
 
 	.intro {
 		text-align: center;
+	}
+
+	.links a {
+		display: inline-block;
+		margin-right: 0.5em;
 	}
 
 	.footer {

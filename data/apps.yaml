@@ -23,3 +23,10 @@
   repo: https://github.com/quangdaon/pi-section
   path: pi-section
   netlifyId: merry-biscuit-200a60
+
+- name: Pi Squared (Pi Day 2024)
+  description: |
+    In this virtual game of darts, we estimate pi by picking random points in a square and counting how many also fall inside of a circle.
+  repo: https://github.com/quangdaon/pi-squared
+  path: pi-squared
+  netlifyId: heartfelt-pegasus-2ae936

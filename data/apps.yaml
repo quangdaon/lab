@@ -43,6 +43,7 @@
 
 - name: EchoVerse
   draft: true
+  sveltekit: true
   description: EchoVerse is a fictional chat application powered by GPT 3.5. It was created for April Fools' Day 2024
   links:
     - label: View Source Code

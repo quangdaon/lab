@@ -11,7 +11,7 @@ const apps = YAML.parse(txt);
 const netlifyApps = apps.filter(e => !!e.netlifyId);
 const redirects = netlifyApps.map((e) => ({
 	source: `/${e.path}/*`,
-	target: `https://${e.netlifyId}.netlify.app/:splat`
+	target: `https://${e.netlifyId}.netlify.app/${e.path}/:splat`
 }));
 
 const sourcePad = Math.max(...redirects.map((e) => e.source.length));

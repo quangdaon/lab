@@ -5,6 +5,6 @@ export function load() {
 	var yaml = fs.readFileSync('./data/apps.yaml', 'utf-8');
 	var apps = YAML.parse(yaml);
 	return {
-		apps
+		apps: apps.filter((e: any) => !e.draft)
 	};
 }

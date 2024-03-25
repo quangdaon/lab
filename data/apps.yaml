@@ -40,3 +40,12 @@
       url: https://www.quangdao.com/blog/pi-day-2024
   path: pi-squared
   netlifyId: heartfelt-pegasus-2ae936
+
+- name: EchoVerse
+  draft: true
+  description: EchoVerse is a fictional chat application powered by GPT 3.5. It was created for April Fools' Day 2024
+  links:
+    - label: View Source Code
+      url: https://github.com/quangdaon/chatbotgpt
+  path: echoverse
+  netlifyId: charming-entremet-ea8e91

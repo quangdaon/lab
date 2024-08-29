@@ -8,7 +8,7 @@
 	<header class="intro">
 		<h1>Welcome to My Lab</h1>
 		<p>
-			This is where I will be publish one-off experimental projects, usually related to math or
+			This is where I will publish one-off experimental projects, usually related to math or
 			science.
 		</p>
 	</header>
@@ -36,16 +36,16 @@
 	</section>
 
 	<footer class="footer">
-		&copy;{new Date().getFullYear()} Quangdao Nguyen |
+		A <a href="https://www.quangdao.com">Quangdao Nguyen</a> catastrophe. All rights reserved. |
 		<a href="https://github.com/quangdaon/lab" target="_blank" rel="noreferrer">Repo</a>
 	</footer>
 </main>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 	:global(body) {
-		margin: 0;
-		font-family: 'Golos Text', sans-serif;
+		font-size: 24px;
+		line-height: 1.5;
+		margin: 1em 0;
 	}
 
 	.container {
@@ -58,6 +58,10 @@
 		margin: 2em 0;
 	}
 
+	h2 {
+		margin-bottom: 0.5em;
+	}
+
 	.intro {
 		text-align: center;
 	}
@@ -65,6 +69,7 @@
 	.links a {
 		display: inline-block;
 		margin-right: 0.5em;
+		margin-top: 0.5em;
 	}
 
 	.footer {

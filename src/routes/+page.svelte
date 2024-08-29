@@ -8,8 +8,7 @@
 	<header class="intro">
 		<h1>Welcome to My Lab</h1>
 		<p>
-			This is where I will publish one-off experimental projects, usually related to math or
-			science.
+			This is where I publish one-off experimental projects, usually related to math or science.
 		</p>
 	</header>
 

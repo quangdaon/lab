@@ -49,3 +49,12 @@
       url: https://github.com/quangdaon/chatbotgpt
   path: echoverse
   netlifyId: charming-entremet-ea8e91
+
+- name: Emoji Snake
+  description: |
+    An implementation of the classic Snake game using emojis to render the UI.
+  links:
+    - label: View Source Code
+      url: https://github.com/quangdaon/emoji-snake
+  path: snake
+  netlifyId: emoji-snake

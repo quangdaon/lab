@@ -58,3 +58,12 @@
       url: https://github.com/quangdaon/emoji-snake
   path: snake
   netlifyId: emoji-snake
+
+- name: Relevant XKCD
+  sveltekit: true
+  description: A web app that lets you semantically search the entire xkcd catalog using AI-powered vector embeddings.
+  links:
+    - label: View Source Code
+      url: https://github.com/quangdaon/relevant-xkcd-ui
+  path: relevant-xkcd
+  netlifyId: lively-genie-d346c7

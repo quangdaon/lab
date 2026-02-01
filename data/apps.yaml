@@ -59,7 +59,7 @@
   path: snake
   netlifyId: emoji-snake
 
-- name: Relevant XKCD
+- name: run
   sveltekit: true
   description: A web app that lets you semantically search the entire xkcd catalog using AI-powered vector embeddings.
   links:

@@ -59,7 +59,7 @@
   path: snake
   netlifyId: emoji-snake
 
-- name: run
+- name: Relevant XKCD
   sveltekit: true
   description: A web app that lets you semantically search the entire xkcd catalog using AI-powered vector embeddings.
   links:
@@ -67,3 +67,11 @@
       url: https://github.com/quangdaon/relevant-xkcd-ui
   path: relevant-xkcd
   netlifyId: lively-genie-d346c7
+
+- name: Mindreader
+  description: An app ChatGPT thought I could build in an hour so I did.
+  links:
+    - label: View Source Code
+      url: https://github.com/quangdaon/mindreader
+  path: mindreader
+  netlifyId: flourishing-crostata-aa1ec1

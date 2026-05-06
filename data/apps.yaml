@@ -75,3 +75,12 @@
       url: https://github.com/quangdaon/mindreader
   path: mindreader
   netlifyId: flourishing-crostata-aa1ec1
+
+- name: LLMeter
+  sveltekit: true
+  description: A Buzzfeed-style quiz that compares your responses to LLM responses.
+  links:
+    - label: View Source Code
+      url: https://github.com/quangdaon/llmeter
+  path: llmeter
+  netlifyId: taupe-syrniki-b22a79
